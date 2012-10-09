@@ -1,5 +1,24 @@
 This is my workings on the course http://dbwebb.se/htmlphp/ @ BTH.
 
-More information later.
+Use the following to use this code:
+
+git clone http://github.com/matslj/htmlphp.git kmom0X
+
+...in order to clone into the directory kmom0X where X is a number from 1 to <to be filled in later>.
+
+then do a:
+
+git checkout vX.0
+
+...where X is the same number as the directory number X mentioned above.
+
+It is not necessary to clone into a structure ranging from kmom01 to kmom0<something>, but some links
+which is referring to previous versions, will not work if the referenced kmom0X-catalog does not exist. 
+
+If you only want to look at the final result just do a:
+
+git clone http://github.com/matslj/htmlphp.git
+
+Your're welcome!
 
 /Mats
