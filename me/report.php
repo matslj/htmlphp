@@ -29,7 +29,7 @@ $pageId = "report";
             
             <h2 id="kursmoment1">Kmom01: Kom igång med HTML, CSS och PHP</h2>
             <a href="#"><i>(tillbaka till början)</i></a><br /><br />
-            <a href="../kmom01/me/me.php">Till kmom01</a>
+            <a href="../../kmom01/me/me.php">Till kmom01</a>
             <p>
                 Eftersom jag redan har en del php med mig från några av de övriga kurserna
                 i kursklustret, så innebär inte php-delen någon större utmaning, och än så
@@ -56,7 +56,7 @@ $pageId = "report";
         <section>
             <h2 id="kursmoment2">Kmom02: HTML-element och CSS-konstruktioner</h2>
             <a href="#"><i>(tillbaka till början)</i></a><br /><br />
-            <a href="../kmom02/me/me.php">Till kmom02</a>
+            <a href="../../kmom02/me/me.php">Till kmom02</a>
             <p>
                 Det var mycket att läsa, men intressant. Övningsmomenten innebar inte några
                 större problem. Jag lade särskild fokus på clearfixes
