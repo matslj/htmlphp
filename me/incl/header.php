@@ -25,8 +25,8 @@
         <header id="above">
             <!-- Relateted links -->
             <nav class="related">
-                <a href="../kmom01/me.php">kmom01</a>
-                <a href="../kmom02/me.php">kmom02 </a>|
+                <a href="../../kmom01/me/me.php">kmom01</a>
+                <a href="../../kmom02/me/me.php">kmom02 </a>|
                 <a href="http://github.com/matslj/htmlphp"> På github</a>
             </nav>
         </header>
