@@ -19,6 +19,7 @@ $pageId = "report";
                 <ul>
                 <li><a href="#kursmoment1">Kursmoment 1</a></li>
                 <li><a href="#kursmoment2">Kursmoment 2</a></li>
+                <li><a href="#kursmoment3">Kursmoment 3</a></li>
                 </ul>
             </nav>
         </header>
@@ -88,6 +89,33 @@ $pageId = "report";
                 <li>display: block; är rekommenderad default style för div och article.</li>
                 <li>De CSS3-konstruktioner jag valde att använda mig av är border radius och shadow (på menyraden).</li>
             </ul>
+        </section>
+        <hr />
+        <section>
+            <h2 id="kursmoment3">Kmom03: Dynamisk webbplats med PHP</h2>
+            <a href="#"><i>(tillbaka till början)</i></a><br /><br />
+            <a href="../../kmom03/me/me.php">Till kmom03</a>
+            <p>
+                Övningsmomentet innebar inte några problem. Jag har tidigare gått de andra
+                kurserna i kursklustret och har därmed fått en del övning i PHP. Dock är det alltid intressant
+                att få tillägna sig Mos programexempel. Jag valde att frikostigt låta mig inspireras
+                av exemplen, för att ha en fortsatt bekant grund inför kommande övningsmoment.
+            </p>
+            <p>
+                Förutom PHP, via kursklustret, så har jag även programmerat en del i andra språk.
+                Java är det språk jag använder på min arbetsplats (när jag programmerar alltså, inte i fikarummet,
+                även om det händer att det finns de som försöker kommunicera det där - och såklart konsumera).
+                Min programmeringsbana började annars med c64 basic.
+            </p>
+            <p>
+                Det är en bra nivå på PHP-koden. Ett råd till de som har den här kursen som första kurs
+                är att inte vara oroliga om ni inte förstår allt; det kommer lossna, om inte i det
+                här kursmomentet, så i kommande.
+            </p>
+            <p>
+                Php20 var, liksom de övriga guiderna, bra. De ger dels en snabb crash course för
+                en som är ny på området, och dels bra repetition för en som har hållt på en del.
+            </p>
         </section>
 </div>
 <?php include ('incl/footer.php'); ?>

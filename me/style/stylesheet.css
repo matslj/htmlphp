@@ -1,3 +1,14 @@
+/* import style for forms
+-------------------------------------------------------- 
+
+*/
+@import url(forms.css);
+
+
+/* general
+-------------------------------------------------------- 
+  
+*/
 html,body{margin:0;padding:0;}
 
 html{
@@ -45,7 +56,7 @@ header#top,
 div#content,
 footer#bottom {
     margin:0 auto;
-    width:650px;
+    width:800px;
 }
 
 /* add common padding to main content block */
@@ -97,9 +108,14 @@ nav.navmenu {
 nav.navmenu a {padding:6px 8px;text-decoration:none;border:2px solid transparent;color:#fff;}
 nav.navmenu a:hover {background:#858585;border:2px solid #656565;}
 
-nav.related {
+nav.related,
+nav.login {
 	padding: 0.2em 1em 0.3em 1em;
 	font-size:smaller;
+}
+
+nav.login {
+    float:right;
 }
 
 /* highlight current choice in navigation menu
@@ -108,8 +124,59 @@ nav.related {
 */
 body#me a#me-,
 body#report a#report-,
+body#test a#test-,
 body#usefulLinks a#links-,
 body#source a#source- {background:#858585;border:2px solid #656565;}
+
+/* navigation menu for vertical menus
+-------------------------------------------------------- 
+
+*/
+nav.vmenu ul,
+nav.vmenu ul ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+    font-size: small;
+} 
+
+nav.vmenu ul h4 {
+    margin-bottom: 4px;
+}
+
+nav.vmenu ul ul li a {display:list-item;padding:2px 0 2px 0;}
+nav.vmenu ul ul li a:hover {background-color:#E6E6E6;}
+
+nav.vmenu ul ul li {
+    padding-left: 7px;
+}
+
+/* use custom image for list marker, cross-browser solution (?) */
+nav.vmenu ul ul li a {
+background-image: url(../img/favicon_glider.ico);
+background-repeat: no-repeat;
+background-position: 0 2px;
+padding-left: 22px; 
+}
+
+.highlighted {
+    background-color:#E6E6E6;
+    font-weight: bold;
+}
+
+/*
+ul#kmom02-pagestyle       li#pagestyle       > a,
+ul#kmom03-get             li#get             > a,
+ul#kmom03-getform         li#getform         > a,
+ul#kmom03-postform        li#postform        > a,
+ul#kmom03-validate        li#validate        > a,
+ul#kmom03-server          li#server          > a,
+ul#kmom03-sessiondestroy  li#sessiondestroy  > a,
+ul#kmom03-sessionchange   li#sessionchange   > a,
+ul#kmom03-session         li#session         > a,
+ul#kmom03-create-password li#create-password > a
+{background-color:#E6E6E6;} 
+*/
 
 /* figure & figcaption
 -------------------------------------------------------- 
@@ -144,10 +211,27 @@ figure.fullwidth{
 .left {
     float:left;
 }
+.justify, 
+.justify-para p {
+    text-align:justify;
+}
+
+/* Border on right hand side of a column. */
+.border {
+  padding-right: 1em;
+  margin-right: 5px;
+  border-right: 1px solid #ddd;
+}
 
 /* clearer fix */
 div#content {
     overflow:auto;
+}
+
+/* Display code in a block */
+blockquote.code {font-family:monospace;white-space:pre;background:#F2F2F2;
+margin-left:0;margin-right:0;padding-left:0.5em;
+border:1px solid #999;overflow:auto;
 }
 
 /* article byline & signature

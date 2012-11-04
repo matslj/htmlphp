@@ -23,10 +23,14 @@
         <!-- Header -->
         <!-- Above header -->
         <header id="above">
+            <!-- login & logout menu -->
+            <?php echo userLoginMenu(); ?>
+            
             <!-- Relateted links -->
             <nav class="related">
                 <a href="../../kmom01/me/me.php">kmom01</a>
-                <a href="../../kmom02/me/me.php">kmom02 </a>|
+                <a href="../../kmom02/me/me.php">kmom02 </a>
+                kmom03 |
                 <a href="http://github.com/matslj/htmlphp"> På github</a>
             </nav>
         </header>
@@ -37,6 +41,7 @@
             <nav class="navmenu">
                 <a id="me-" href="me.php">Me</a>
                 <a id="report-" href="report.php">Redovisning</a>
+                <a id="test-" href="test.php">Test</a>
                 <a id="links-" href="usefulLinks.php">Länkar</a>
                 <a id="source-" href="viewsource.php">Källkod</a>
             </nav>

@@ -1,6 +1,23 @@
 <?php
 error_reporting(-1);
 
+// start a named session
+session_name(preg_replace('/[:\.\/-_]/', '', __FILE__));
+session_start();
+
+// time page generation, display in footer. comment out to disable timing.
+$pageTimeGeneration = microtime(true); 
+
+// include common functions 
+include_once(dirname(__FILE__) . "/../src/common.php");
+
+// include functions for login & logout
+include_once(dirname(__FILE__) . "/../src/login.php");
+
+// account and password that can login
+$userAccount = "doe";
+$userPassword = userPassword("doe");
+
 /* Tips!
  * 
  * PHP sluttag ?> behövs inte alltid anges. Som du kan se i filen config.php så

@@ -17,6 +17,8 @@ $pageId = "usefulLinks";
     <ul>
         <li>Kursens webbplats<br />
         <a href='http://dbwebb.se/htmlphp/kmom02'>http://dbwebb.se/htmlphp/kmom02</a></li>
+        <li>Om problem vid start av session<br />
+        <a href='http://db-o-webb.blogspot.se/2010/02/warning-cannot-modify-header.html'>http://db-o-webb.blogspot.se/2010/02/warning-cannot-modify-header.html</a></li>
         <li>CSS-hjälpmedlet style!<br />
         <a href='http://www.w3.org/TR/css3-background/'>http://www.w3.org/TR/css3-background/</a></li>
         <li>Direktlänk till CSS &#8220;image values and replaced content module&#8221; (<code>gradient</code>)<br />
@@ -54,6 +56,11 @@ $pageId = "usefulLinks";
         <a href='http://border-radius.com/'>http://border-radius.com/</a></li>
         <li>Hjälp för framtagning av färgkoder (HSL bland annat)<br />
         <a href='http://www.workwithcolor.com/hsl-color-schemer-01.htm'>http://www.workwithcolor.com/hsl-color-schemer-01.htm</a></li>
+    </ul>
+    <h2>Kodningstips</h2>
+    <ul>
+        <li>Om @-operatorn<br />
+        <a href='http://thesmithfam.org/blog/2006/05/07/php-the-operator/'>http://thesmithfam.org/blog/2006/05/07/php-the-operator/</a></li>
     </ul>
 </div>
 <?php include ('incl/footer.php'); ?>
